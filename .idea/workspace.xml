@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="backend dbPort fix">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2/storage_v2/_src_/database/udagram.CSVl3Q.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2/storage_v2/_src_/database/udagram.CSVl3Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2/storage_v2/_src_/database/udagram.CSVl3Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2/storage_v2/_src_/database/udagram.CSVl3Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-api/src/sequelize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/src/environments/environment.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24WhCBNPqePoWXQAzA1YsqAlTHV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;redshift" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="" />
+      <created>1643752129182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643752129182</updated>
+      <workItem from="1643752136437" duration="1235000" />
+      <workItem from="1643753381447" duration="4013000" />
+      <workItem from="1643762337299" duration="2359000" />
+      <workItem from="1643766705828" duration="2889000" />
+      <workItem from="1643839737658" duration="3985000" />
+      <workItem from="1643850369394" duration="307000" />
+      <workItem from="1643850810977" duration="4071000" />
+      <workItem from="1644026050087" duration="8195000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial code">
+      <created>1643752314057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643752314057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backend dbPort fix">
+      <created>1643841405124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643841405124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial code" />
+    <MESSAGE value="backend dbPort fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend dbPort fix" />
+  </component>
+</project>
