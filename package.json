@@ -1,5 +1,13 @@
-
 {
-    "scripts": {},
-    "devDependencies": {}
-}
+  "scripts": {
+    "build:backend": " cd udagram-api && npm install && npm run build && cd ..",
+    "build:frontend": "cd udagram-frontend && npm install && npm run build && cd .."
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Abdelgawad-Dev/udagram.git"
+  },
+  "author": "ahmed",
+  "license": "ISC"
+  }
