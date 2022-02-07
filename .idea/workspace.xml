@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="RDS connectio">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0687b332-9100-4240-8f2c-f3395b7c01f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/.elasticbeanstalk/app_versions/app-220206_151535505420.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/.elasticbeanstalk/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-api/.elasticbeanstalk/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-api/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +69,7 @@
       <workItem from="1644026050087" duration="12794000" />
       <workItem from="1644146558256" duration="20130000" />
       <workItem from="1644257891418" duration="6379000" />
+      <workItem from="1644274729033" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="initial code">
       <created>1643752314057</created>

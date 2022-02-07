@@ -1,8 +1,9 @@
 branch-defaults:
   default:
     environment: udagram-api-dev
-  deploy:
-    artifact: www/Archive.zip
+deploy:
+  artifact: www/Archive.zip
+version: 2.1
 global:
   application_name: udagram-api
   branch: null

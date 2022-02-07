@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build:backend": " cd udagram-api && npm install && npm run build && cd ..",
-    "build:frontend": "cd udagram-frontend && npm install && npm run build && cd .."
+    "build:backend": "cd udagram-api && npm install && npm run build && cd .. ",
+    "build:frontend": "cd udagram-frontend && npm install && npm run build && cd .. "
   },
   "version": "1.0.0",
   "repository": {
