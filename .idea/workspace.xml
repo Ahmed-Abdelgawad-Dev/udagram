@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="RDS connectio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udagram-api/src/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-api/src/sequelize.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udagram-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udagram-frontend/src/app/auth/auth-menu-button/auth-menu-button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/src/app/auth/auth-menu-button/auth-menu-button.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udagram-frontend/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udagram-frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/src/environments/environment.ts" afterDir="false" />
-    </list>
+    <list default="true" id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="RDS connectio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +60,7 @@
       <workItem from="1643850369394" duration="307000" />
       <workItem from="1643850810977" duration="4071000" />
       <workItem from="1644026050087" duration="12794000" />
-      <workItem from="1644146558256" duration="20058000" />
+      <workItem from="1644146558256" duration="20130000" />
     </task>
     <task id="LOCAL-00001" summary="initial code">
       <created>1643752314057</created>
@@ -97,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644167580953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RDS connectio">
+      <created>1644187956224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644187956224</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
