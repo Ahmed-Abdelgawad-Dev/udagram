@@ -9,6 +9,8 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
+      - browser-tools/install-chrome
+      - browser-tools/install-chromedriver
       - checkout
       - node/install
       - aws-cli/setup
@@ -16,11 +18,11 @@ jobs:
       - run:
           name: Backend install and build
           command: npm run build:backend
+#      - run:
+#          name: Installing and testing frontend
+#          command: npm run test:frontend
       - run:
-          name: Installing and testing frontend
-          command: npm run test:frontend
-      - run:
-          name: Building frontend
+          name: Frontend install and build
           command: npm run build:frontend
       - run:
           name: Deploying Backend
