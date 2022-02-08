@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="RDS connectio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/bin/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-api/bin/deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/udagram-api/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/udagram-frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,7 +71,7 @@
       <workItem from="1644026050087" duration="12794000" />
       <workItem from="1644146558256" duration="20130000" />
       <workItem from="1644257891418" duration="6379000" />
-      <workItem from="1644274729033" duration="19940000" />
+      <workItem from="1644274729033" duration="22592000" />
     </task>
     <task id="LOCAL-00001" summary="initial code">
       <created>1643752314057</created>
