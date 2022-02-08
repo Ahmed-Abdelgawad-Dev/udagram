@@ -1,8 +1,9 @@
+version: 2.1
 orbs:
+  browser-tools: circleci/browser-tools@1.2.4
   node: circleci/node@5.0.0
   aws-cli: circleci/aws-cli@2.0.6
   eb: circleci/aws-elastic-beanstalk@2.0.1
-version: 2.1
 
 jobs:
   build:
@@ -16,11 +17,14 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
+            name: Check install
+            command: |
+              google-chrome --version
+              chromedriver --version
+      - run:
           name: Backend install and build
           command: npm run build:backend
-#      - run:
-#          name: Installing and testing frontend
-#          command: npm run test:frontend
+
       - run:
           name: Frontend install and build
           command: npm run build:frontend
@@ -30,3 +34,11 @@ jobs:
       - run:
           name: Deploying Frontend
           command: npm run deploy:frontend
+workflows:
+  Udagram:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
