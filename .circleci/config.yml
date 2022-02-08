@@ -14,8 +14,17 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
-          name: install dependecies
+          name: Backend install and build
           command: npm run build:backend
       - run:
-          name: install dependecies
+          name: Installing and testing frontend
+          command: npm run test:frontend
+      - run:
+          name: Building frontend
           command: npm run build:frontend
+      - run:
+          name: Deploying Backend
+          command: npm run deploy:backend
+      - run:
+          name: Deploying Frontend
+          command: npm run deploy:frontend
