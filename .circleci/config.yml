@@ -4,11 +4,22 @@ orbs:
   node: circleci/node@5.0.0
   aws-cli: circleci/aws-cli@2.0.6
   eb: circleci/aws-elastic-beanstalk@2.0.1
-
 jobs:
+#  test:
+#    docker:
+#      - image: 'cimg/node:13.12-browsers'
+#    steps:
+#      - browser-tools/install-chrome
+#      - browser-tools/install-chromedriver
+#      - run:
+#          command: |
+#            google-chrome --version
+#            chromedriver --version
+#          name: Check install
   build:
     docker:
-      - image: cimg/base:stable
+      - image: 'cimg/node:13.12-browsers'
+#      - image: cimg/base:stable
     steps:
       - browser-tools/install-chrome
       - browser-tools/install-chromedriver
@@ -24,7 +35,9 @@ jobs:
       - run:
           name: Backend install and build
           command: npm run build:backend
-
+      - run:
+          name: TEST FRONTEND
+          command: npm run test:frontend
       - run:
           name: Frontend install and build
           command: npm run build:frontend
@@ -42,3 +55,47 @@ workflows:
             branches:
               only:
                 - master
+
+#version: 2.1
+#orbs:
+#  browser-tools: circleci/browser-tools@1.2.4
+#  node: circleci/node@5.0.0
+#  aws-cli: circleci/aws-cli@2.0.6
+#  eb: circleci/aws-elastic-beanstalk@2.0.1
+#jobs:
+#  build:
+#    docker:
+#      - image: cimg/base:stable
+#    steps:
+#      - browser-tools/install-chrome
+#      - browser-tools/install-chromedriver
+#      - checkout
+#      - node/install
+#      - aws-cli/setup
+#      - eb/setup
+#      - run:
+#            name: Check install
+#            command: |
+#              google-chrome --version
+#              chromedriver --version
+#      - run:
+#          name: Backend install and build
+#          command: npm run build:backend
+#
+#      - run:
+#          name: Frontend install and build
+#          command: npm run build:frontend
+#      - run:
+#          name: Deploying Backend
+#          command: npm run deploy:backend
+#      - run:
+#          name: Deploying Frontend
+#          command: npm run deploy:frontend
+#workflows:
+#  Udagram:
+#    jobs:
+#      - build:
+#          filters:
+#            branches:
+#              only:
+#                - master
