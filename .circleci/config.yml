@@ -25,10 +25,10 @@ jobs:
           name: Backend install and build
           command: npm run build:backend
       - run:
-          name: TEST FRONTEND
+          name: Frontend install and tests
           command: npm run test:frontend
       - run:
-          name: Frontend install and build
+          name: Frontend build
           command: npm run build:frontend
       - run:
           name: Deploying Backend
