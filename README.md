@@ -1,65 +1,47 @@
-# Udagram
+# Udagram Full-Stack App Deployed And Hosted On AWS - Udacity
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+### App link:
+The application's Link [here](http://elasticbeanstalk-us-east-1-332479299337.s3-website-us-east-1.amazonaws.com).
 
-## Getting Started
+### App Main Parts:
 
-1. Clone this repo locally into the location of your choice.
-1. Move the content of the udagram folder at the root of the repository as this will become the main content of the project.
-1. Open a terminal and navigate to the root of the repo
-1. follow the instructions in the installation step
+- Front-End runs on  AWS S3 Bucket
+- Back-End runs on Elastic Beanstalk 
+- RDS micro tier is used for the database `Postgres`.
 
-The project can run but is missing some information to connect to the database and storage service. These will be setup during the course of the project
+`CircleCi` for CI & CD is used, as when a new code is pushed the `pipeline` starts to apply the new code and till
+the changes will be deployed on the production environment.
 
-### Dependencies
+### Installation:
 
-```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+Run `npm install` for both frontend part and api part to download the necessary dependencies.
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+### Run the application locally:
 
-- AWS CLI v2, v1 can work but was not tested for this project
+Create a `.env` file in `udagram-api` With the below variables:
 
-- A RDS database running Postgres.
+POSTGRES_USERNAME
+POSTGRES_PASSWORD
+POSTGRES_DB
+PORT
+POSTGRES_HOST
+RDS_DIALECT
+AWS_REGION
+AWS_PROFILE
+aws_bucket
+AWS_BUCKET
+URL
+DB_PORT
+JWT_SECRET
 
-- A S3 bucket for hosting uploaded pictures.
+Open your terminal and split it into 2 windows:
+1. cd to `udagram-api` then `npm run dev`
+2. cd to `udagram-frontend` then `npm run start`
 
-```
+Open `http://localhost:4200` in the local browser.
 
-### Installation
+####Note:
+1- Use this command to free the port if busy (Unix)
+```sudo lsof -t -i tcp:3000 | xargs kill -9```
 
-Provision the necessary AWS services needed for running the application:
-
-1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for tlink to classroom article>
-1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
-1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
-1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
-
-## Testing
-
-This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
-
-1. `cd starter/udagram-frontend`
-1. `npm run test`
-1. `npm run e2e`
-
-There are no Unit test on the back-end
-
-### Unit Tests:
-
-Unit tests are using the Jasmine Framework.
-
-### End to End Tests:
-
-The e2e tests are using Protractor and Jasmine.
-
-## Built With
-
-- [Angular](https://angular.io/) - Single Page Application Framework
-- [Node](https://nodejs.org) - Javascript Runtime
-- [Express](https://expressjs.com/) - Javascript API Framework
-
-## License
-
-[License](LICENSE.txt)
+2- Please check the `Doc folder` for more information & clarifying diagrams.
