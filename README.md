@@ -3,6 +3,7 @@
 ### App link:
 The application's Link [here](http://elasticbeanstalk-us-east-1-332479299337.s3-website-us-east-1.amazonaws.com).
 
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/Ahmed-Abdelgawad-Dev/udagram)
 ### App Main Parts:
 
 - Front-End runs on  AWS S3 Bucket
@@ -40,8 +41,12 @@ Open your terminal and split it into 2 windows:
 
 Open `http://localhost:4200` in the local browser.
 
-####Note:
+#### Note:
 1- Use this command to free the port if busy (Unix)
 ```sudo lsof -t -i tcp:3000 | xargs kill -9```
+Feel free to change the port number.
 
 2- Please check the `Doc folder` for more information & clarifying diagrams.
+
+#### Pipeline Status(CircleCi):
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/Ahmed-Abdelgawad-Dev/udagram)
