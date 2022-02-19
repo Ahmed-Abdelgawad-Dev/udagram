@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="645bc132-888a-416c-972d-0a0ec5edc55a" name="Changes" comment="RDS connectio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/udagram-api/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../main.go" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,7 +100,8 @@
       <workItem from="1644429668710" duration="18367000" />
       <workItem from="1644532693058" duration="6761000" />
       <workItem from="1644697734900" duration="955000" />
-      <workItem from="1644942113793" duration="1562000" />
+      <workItem from="1644942113793" duration="2881000" />
+      <workItem from="1645137877087" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="initial code">
       <created>1643752314057</created>
@@ -173,16 +174,5 @@
     <MESSAGE value="backend dbPort fix" />
     <MESSAGE value="RDS connectio" />
     <option name="LAST_COMMIT_MESSAGE" value="RDS connectio" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
